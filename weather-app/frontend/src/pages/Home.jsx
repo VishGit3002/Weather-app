@@ -204,7 +204,7 @@ const Home = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    fetchWeather("Kolkata");
+    fetchWeather("Dhanbad");
   }, []);
 
   const fetchWeather = async (searchCity) => {
